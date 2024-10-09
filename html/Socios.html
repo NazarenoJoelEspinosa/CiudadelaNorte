@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Socios - Club Ciudadela Norte</title>
+    <link rel="stylesheet" href="../css/Style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="conoce-mas.html">Conoce Más</a></li>
+                <li><a href="deportes.html">Deportes</a></li>
+                <li><a href="socios.html">Socios</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="registro">
+        <section class="contenedor">
+            <h1>Registro de Socios</h1>
+            <form action="../php/procesar_registro.php" method="post">
+                <label for="nombre">Nombre Completo:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="telefono">Teléfono:</label>
+                <input type="text" id="telefono" name="telefono" required>
+
+                <label for="direccion">Dirección:</label>
+                <input type="text" id="direccion" name="direccion" required>
+
+                <input type="submit" value="Registrarse">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Club Ciudadela Norte - Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
