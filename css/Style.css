@@ -23,7 +23,7 @@ header {
     height: auto;
     padding: 10px 20px;
     justify-content: space-between;
-    
+
 }
 
 nav ul {
@@ -55,18 +55,18 @@ ul.dropdown {
     min-width: 160px;
     z-index: 1;
     border-radius: 10px;
-    
+
 }
 
 ul.dropdown li {
     float: none;
     margin: 10px;
-    
+
 }
 
 ul.dropdown a {
     padding: 12px 16px;
-    
+
 
 }
 
@@ -74,12 +74,13 @@ ul.dropdown a:hover {
     background-color: #111;
     border-radius: 20px;
     width: auto;
-    
+
 }
 
 ul li:hover ul.dropdown {
     display: block;
 }
+
 #presentacion {
     background-color: #fff;
     padding: 50px;
@@ -98,7 +99,7 @@ ul li:hover ul.dropdown {
 }
 
 #presentacion .btn {
-    background-color:#333;
+    background-color: #333;
     color: #fff;
     padding: 20px;
     border: none;
@@ -107,7 +108,7 @@ ul li:hover ul.dropdown {
 }
 
 #presentacion .btn:hover {
-    background-color:#c02525;
+    background-color: #c02525;
 }
 
 #galeria .carousel-item img {
@@ -115,14 +116,16 @@ ul li:hover ul.dropdown {
     width: 100%;
     height: auto;
 }
-.FondoContacto{
+
+.FondoContacto {
     width: auto;
     height: auto;
     background-image: url(../img/CN/Pared\ Del\ Club.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
-.Contacto{
+
+.Contacto {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -130,30 +133,33 @@ ul li:hover ul.dropdown {
     flex-wrap: wrap;
 
 }
-.Contactos{
+
+.Contactos {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     width: 30%;
-   
+
 }
-.LogoContacto{
+
+.LogoContacto {
     border-radius: 50%;
     width: 220px;
     height: 220px;
 }
+
 .contacto-link {
-    display: inline-block; 
-    padding: 10px 20px; 
+    display: inline-block;
+    padding: 10px 20px;
     margin: 5px 0;
-    background-color: #be3f3f; 
-    border: 1px solid #ccc; 
-    border-radius: 5px; 
-    color: #ffffff; 
-    text-decoration: none; 
+    background-color: #be3f3f;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #ffffff;
+    text-decoration: none;
     font-weight: bold;
-    transition: background-color 0.2s ease; 
+    transition: background-color 0.2s ease;
     width: 100%;
     justify-content: space-around;
     flex-direction: column;
@@ -161,51 +167,69 @@ ul li:hover ul.dropdown {
     text-align: center;
     height: auto;
 }
-      
+
 .contacto-link:hover {
     background-color: #642323a9;
 }
-.Text-Contacto{
+
+.Text-Contacto {
     text-align: center;
 }
-.Form{
-    display: grid;
+
+.Form {
+    display: flex;
     justify-content: center;
     align-items: center;
-}
-.form-container {
-
-    background-color: #fff;
     padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 300px;
+    background-color: #f7f7f7;
 }
-.form-container h2 {
+
+.form-container {
+    max-width: 400px;
+    width: 100%;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
     margin-bottom: 20px;
     color: #333;
 }
-.form-container input[type="text"],
-.form-container input[type="email"],
-.form-container input[type="password"] {
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
     width: 100%;
     padding: 10px;
     margin: 10px 0;
     border: 1px solid #ccc;
     border-radius: 4px;
+    box-sizing: border-box;
 }
-.form-container input[type="submit"] {
+
+form textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+form input[type="submit"] {
     width: 100%;
-    padding: 10px;
     background-color: #be3f3f;
+    color: white;
+    padding: 10px;
     border: none;
     border-radius: 4px;
-    color: white;
-    font-size: 16px;
     cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
 }
-.form-container input[type="submit"]:hover {
-    background-color: #be3f3f;
+
+form input[type="submit"]:hover {
+    background-color: #f58383;
 }
 
 footer {
@@ -217,13 +241,14 @@ footer {
     padding: 10px 0;
     height: auto;
 }
+
 /* Estilos para la sección "Conoce Más" */
 #conoce-mas {
     background-color: #ffffff;
     padding: 50px 20px;
     text-align: center;
     display: flex;
-   min-height: 100vh;
+    min-height: 100vh;
 }
 
 #conoce-mas .contenedor {
@@ -285,6 +310,7 @@ footer {
         font-size: 14px;
         padding: 0 10px;
     }
+
     #presentacion h2 {
         font-size: 1.5rem;
     }
@@ -292,6 +318,7 @@ footer {
     #presentacion p {
         font-size: 0.9rem;
     }
+
     header {
         flex-direction: column;
         align-items: center;
@@ -308,12 +335,14 @@ footer {
     .LogoInicio {
         width: auto;
         max-width: 200px;
-        height:auto;
+        height: auto;
         max-height: 70px;
     }
-    .Contactos{
+
+    .Contactos {
         width: 50%;
     }
+
     #conoce-mas h2 {
         font-size: 2rem;
     }
